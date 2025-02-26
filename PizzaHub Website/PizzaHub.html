@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PizzaHub</title>
+  <link rel="stylesheet" href="/bootstrap-5.3.3-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Pizza Place</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Overview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="forms.html">Online Order</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reviews">Reviews </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#photo">photo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Login.html">Login</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--tabs -->
+  <div class="container mt-4">
+    <ul class="nav nav-tabs" id="menuTabs">
+      <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#overview">Overview</a></li>
+      <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#VegPizza">Veg Pizza (6) </a></li>
+      <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#Non-VegPizza">Non-Veg Pizza (5) </a> </li>
+      <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#Burger&Fries">Burger & Fries (7)</a></li>
+      <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#Sandwish">Sandwish(9)</a></li>
+    </ul>
+    <div class="tab-content mt-4">
+      <!--Overview section-->
+      <div class="tab-pane fade" id="overview">
+        <h2>Welcome to Pizza Place</h2>
+        <p>Enjoy the best pizza, burgers, and sandwiches in town!</p>
+
+        <!-- circle image -->
+        <div class="row row-cols-3 row-cols-sm-4 mb-sm-5 row-cols-md-6 shadow-lg rounded-3 mt-4 g-4">
+          <div class="col shadow-lg rounded-5 text-center">
+            <img
+              src="https://b.zmtcdn.com/data/reviews_photos/33b/2a59c893e348c2a437a3a4e82c1e333b_1653944198.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+              style="height: 4rem; width: 4rem;"
+              class="card-img-top rounded-circle border border-success  mt-3 border-2" alt="...">
+            <h6 class="text-center">Veg Pizza</h6>
+          </div>
+          <div class="col shadow-lg rounded-5 text-center">
+            <img
+              src="https://b.zmtcdn.com/data/reviews_photos/e29/158139cb0209693240f614c002c5de29_1681659872.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+              style="height: 4rem; width: 4rem;" class="card-img-top rounded-circle border border-success mt-3 border-2"
+              alt="...">
+            <h6>Veg Non-Pizza</h6>
+          </div>
+          <div class="col shadow-lg rounded-5 text-center">
+            <img
+              src="https://b.zmtcdn.com/data/reviews_photos/c0a/76b4a2a0fc5547f782dbb281139dcc0a_1639253440.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+              style="height: 4rem; width: 4rem;" class="card-img-top rounded-circle border border-success mt-3 border-2"
+              alt="...">
+            <h6>Veg Pizza</h6>
+          </div>
+          <div class="col shadow-lg rounded-5 text-center">
+            <img
+              src="https://b.zmtcdn.com/data/reviews_photos/33b/2a59c893e348c2a437a3a4e82c1e333b_1653944198.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+              style="height: 4rem; width: 4rem;" class="card-img-top rounded-circle border border-success mt-3 border-2"
+              alt="...">
+            <h6>Veg Non-Pizza</h6>
+          </div>
+          <div class="col shadow-lg rounded-5 text-center">
+            <img
+              src="https://b.zmtcdn.com/data/reviews_photos/254/629cc4dfcf2b5c9eac0c77e9e424b254_1637076348.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+              style="height: 4rem; width: 4rem;" class="card-img-top rounded-circle border border-success mt-3 border-2"
+              alt="...">
+            <h6>Veg Pizza</h6>
+          </div>
+          <div class="col shadow-lg rounded-5 text-center">
+            <img
+              src="https://b.zmtcdn.com/data/reviews_photos/f97/da0adef3cdee2497b920bb6ebac0ff97_1639842419.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+              style="height: 4rem; width: 4rem;" class="card-img-top rounded-circle border border-success mt-3 border-2"
+              alt="...">
+            <h6>Sandwish </h6>
+          </div>
+          <div class="col shadow-lg rounded-5 text-center">
+            <img
+              src="https://b.zmtcdn.com/data/reviews_photos/33b/2a59c893e348c2a437a3a4e82c1e333b_1653944198.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+              style="height: 4rem; width: 4rem;" class="card-img-top rounded-circle border border-success mt-3 border-2"
+              alt="...">
+            <h6>Veg Pizza</h6>
+          </div>
+          <div class="col shadow-lg rounded-5 text-center">
+            <img
+              src="https://b.zmtcdn.com/data/reviews_photos/c0a/76b4a2a0fc5547f782dbb281139dcc0a_1639253440.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+              style="height: 4rem; width: 4rem;" class="card-img-top rounded-circle border border-success mt-3 border-2"
+              alt="...">
+            <h6>Veg Pizza</h6>
+          </div>
+          <div class="col shadow-lg rounded-5 text-center">
+            <img
+              src="https://b.zmtcdn.com/data/reviews_photos/f97/da0adef3cdee2497b920bb6ebac0ff97_1639842419.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+              style="height: 4rem; width: 4rem;" class="card-img-top rounded-circle border border-success mt-3 border-2"
+              alt="...">
+            <h6>Sandwish </h6>
+          </div>
+        </div>
+        <h2 class="mt-3">Trending Selling Pizza</h2>
+
+        <!--group card-->
+        <div class="row row-cols-1 mt-2 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card shadow-lg">
+              <img
+                src="https://b.zmtcdn.com/data/reviews_photos/fe8/9ed5f4bc7337c5db42b7a157cf307fe8_1725380971.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Veg Pizza</h5>
+                <p class="card-text">This is a longer card with supporting longer.</p>
+                <button type="button" class="btn btn-secondary w-100">Add To Card</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-lg">
+              <img
+                src="https://b.zmtcdn.com/data/reviews_photos/c14/bacdcc82d5f1e8bcf67e6a0386f8bc14_1732112419.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Veg Pizza</h5>
+                <p class="card-text">This is a longer card with supporting longer.</p>
+                <button type="button" class="btn btn-secondary w-100">Add To Card</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-lg">
+              <img
+                src="https://b.zmtcdn.com/data/reviews_photos/3de/e6d25e38431ab3350ac08675e43103de_1640855249.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Veg Pizza</h5>
+                <p class="card-text">This is a longer card with supporting longer.</p>
+                <button type="button" class="btn btn-secondary w-100">Add To Card</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-lg">
+              <img
+                src="https://b.zmtcdn.com/data/reviews_photos/f97/da0adef3cdee2497b920bb6ebac0ff97_1639842419.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Veg Pizza</h5>
+                <p class="card-text">This is a longer card with supporting longer.</p>
+                <button type="button" class="btn btn-secondary w-100">Add To Card</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Customers Reviws-->
+        <section id="reviews">
+          <h2 class="mt-4">Customers Reviws</h2>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 mt-3">
+                <div class="card shadow-lg">
+                  <div class="d-wrap">
+                    <div class="flex-shrink-0 text-center mt-2">
+                      <img src="/School Website/images/my_images.jpeg"
+                        class="rounded-circle border border-success border-2" style="height: 6rem; width: 6rem;"
+                        alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                      <div class="flex-grow-1 ms-3">
+                        <h4>Md AKHTAR ALI</h4>
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        <p>This is some content from a media component. You can replace this with any content and adjust
+                          it as needed.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mt-3">
+                <div class="card shadow-lg">
+                  <div class="d-wrap">
+                    <div class="flex-shrink-0 text-center mt-2">
+                      <img src="/School Website/images/my_images.jpeg"
+                        class="rounded-circle border border-success border-2" style="height: 6rem; width: 6rem;"
+                        alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                      <div class="flex-grow-1 ms-3">
+                        <h4>Md AKHTAR ALI</h4>
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        <p>This is some content from a media component. You can replace this with any content and adjust
+                          it as needed.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mt-3">
+                <div class="card shadow-lg">
+                  <div class="d-wrap">
+                    <div class="flex-shrink-0 text-center mt-2">
+                      <img src="/School Website/images/my_images.jpeg"
+                        class="rounded-circle border border-success border-2" style="height: 6rem; width: 6rem;"
+                        alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                      <div class="flex-grow-1 ms-3">
+                        <h4>Md AKHTAR ALI</h4>
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        <p>This is some content from a media component. You can replace this with any content and adjust
+                          it as needed.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 mt-3">
+                <div class="card shadow-lg">
+                  <div class="d-wrap">
+                    <div class="flex-shrink-0 text-center mt-2">
+                      <img src="/School Website/images/my_images.jpeg"
+                        class="rounded-circle border border-success border-2" style="height: 6rem; width: 6rem;"
+                        alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                      <div class="flex-grow-1 ms-3">
+                        <h4>Md AKHTAR ALI</h4>
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        <p>This is some content from a media component. You can replace this with any content and adjust
+                          it as needed.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!--photo-->
+        <hr>
+        <section id="photo">
+          <h2>PHOTO GALLERY</h2>
+          <div class="row row-cols-1 row-cols-md-3 g-4 shadow-lg mt-4">
+            <div class="col">
+              <div class="card">
+                <img
+                  src="https://b.zmtcdn.com/data/reviews_photos/33b/2a59c893e348c2a437a3a4e82c1e333b_1653944198.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+                  class="card-img-top" alt="...">
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+                <img
+                  src="https://b.zmtcdn.com/data/reviews_photos/fe8/9ed5f4bc7337c5db42b7a157cf307fe8_1725380971.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+                  class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="https://b.zmtcdn.com/data/reviews_photos/082/78b10cec70c20cf0471354621d844082_1686407376.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+                  class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="https://b.zmtcdn.com/data/reviews_photos/c14/bacdcc82d5f1e8bcf67e6a0386f8bc14_1732112419.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+                  class="card-img-top" alt="...">
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!--Veg Pizza Section-->
+      <div class="tab-pane fade" id="VegPizza">
+        <h3>Veg Pizza</h3>
+        <div class="row shadow-lg">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://b.zmtcdn.com/data/reviews_photos/33b/2a59c893e348c2a437a3a4e82c1e333b_1653944198.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+                alt="pizza image">
+              <div class="card-body">
+                <h5>Margherita Pizza</h5>
+                <p>Lorem ipsum dolor sit a consequatur cumque!</p>
+                <p class="card-text">₹399 <span class="text-decoration-line-through ms-5">₹599</span></p>
+                <div class="card-text">
+                  <a href="#" class="btn btn-danger"> Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://b.zmtcdn.com/data/reviews_photos/33b/2a59c893e348c2a437a3a4e82c1e333b_1653944198.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+                alt="pizza image">
+              <div class="card-body">
+                <h5>Margherita Pizza</h5>
+                <p>Lorem ipsum dolor sit a consequatur cumque!</p>
+                <p class="card-text">₹399 <span class="text-decoration-line-through ms-5">₹599</span></p>
+                <div class="card-text">
+                  <a href="#" class="btn btn-danger"> Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://b.zmtcdn.com/data/reviews_photos/33b/2a59c893e348c2a437a3a4e82c1e333b_1653944198.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+                alt="pizza image">
+              <div class="card-body">
+                <h5>Margherita Pizza</h5>
+                <p>Lorem ipsum dolor sit a consequatur cumque!</p>
+                <p class="card-text">₹399 <span class="text-decoration-line-through ms-5">₹599</span></p>
+                <div class="card-text">
+                  <a href="#" class="btn btn-danger"> Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Veg Non-Pizza Section-->
+      <div class="tab-pane fade" id="Non-VegPizza">
+        <h3>Veg Non-Pizza</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://b.zmtcdn.com/data/reviews_photos/557/10177f262cad57f4f5c370d86b72a557_1640120940.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+                alt="pizza image">
+              <div class="card-body">
+                <h5>Margherita Pizza</h5>
+                <p class="card-text">₹399 <span class="text-decoration-line-through ms-5">₹599</span></p>
+                <div class="card-text">
+                  <a href="#" class="btn btn-danger"> Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://b.zmtcdn.com/data/reviews_photos/557/10177f262cad57f4f5c370d86b72a557_1640120940.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+                alt="pizza image">
+              <div class="card-body">
+                <h5>Margherita Pizza</h5>
+                <p class="card-text">₹399 <span class="text-decoration-line-through ms-5">₹599</span></p>
+                <div class="card-text">
+                  <a href="#" class="btn btn-danger"> Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://b.zmtcdn.com/data/reviews_photos/557/10177f262cad57f4f5c370d86b72a557_1640120940.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+                alt="pizza image">
+              <div class="card-body">
+                <h5>Margherita Pizza</h5>
+                <p class="card-text">₹399 <span class="text-decoration-line-through ms-5">₹599</span></p>
+                <div class="card-text">
+                  <a href="#" class="btn btn-danger"> Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Burger & Fries  Section-->
+      <div class="tab-pane fade" id="Burger&Fries">
+        <h3>Burger & Fries</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://b.zmtcdn.com/data/reviews_photos/fe8/9ed5f4bc7337c5db42b7a157cf307fe8_1725380971.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+                alt="pizza image">
+              <div class="card-body">
+                <h5>Margherita Pizza</h5>
+                <p class="card-text">₹399 <span class="text-decoration-line-through ms-5">₹599</span></p>
+                <div class="card-text">
+                  <a href="#" class="btn btn-danger"> Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://b.zmtcdn.com/data/reviews_photos/fe8/9ed5f4bc7337c5db42b7a157cf307fe8_1725380971.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+                alt="pizza image">
+              <div class="card-body">
+                <h5>Margherita Pizza</h5>
+                <p class="card-text">₹399 <span class="text-decoration-line-through ms-5">₹599</span></p>
+                <div class="card-text">
+                  <a href="#" class="btn btn-danger"> Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://b.zmtcdn.com/data/reviews_photos/fe8/9ed5f4bc7337c5db42b7a157cf307fe8_1725380971.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+                alt="pizza image">
+              <div class="card-body">
+                <h5>Margherita Pizza</h5>
+                <p class="card-text">₹399 <span class="text-decoration-line-through ms-5">₹599</span></p>
+                <div class="card-text">
+                  <a href="#" class="btn btn-danger"> Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Sandwish Section-->
+      <div class="tab-pane fade" id="Sandwish">
+        <h3> Sandwish Pizza</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://b.zmtcdn.com/data/reviews_photos/5c3/04e566979aee94b80053774bb72555c3_1674848270.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+                alt="pizza image">
+              <div class="card-body">
+                <h5>Margherita Pizza</h5>
+                <p class="card-text">₹399 <span class="text-decoration-line-through ms-5">₹599</span></p>
+                <div class="card-text">
+                  <a href="#" class="btn btn-danger"> Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://b.zmtcdn.com/data/reviews_photos/5c3/04e566979aee94b80053774bb72555c3_1674848270.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+                alt="pizza image">
+              <div class="card-body">
+                <h5>Margherita Pizza</h5>
+                <p class="card-text">₹399 <span class="text-decoration-line-through ms-5">₹599</span></p>
+                <div class="card-text">
+                  <a href="#" class="btn btn-danger"> Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://b.zmtcdn.com/data/reviews_photos/5c3/04e566979aee94b80053774bb72555c3_1674848270.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+                alt="pizza image">
+              <div class="card-body">
+                <h5>Margherita Pizza</h5>
+                <p class="card-text">₹399 <span class="text-decoration-line-through ms-5">₹599</span></p>
+                <div class="card-text">
+                  <a href="#" class="btn btn-danger"> Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--footer-->
+  <footer class="bg-dark text-white text-center  p-3 mt-4">
+    <p>&copy; 2025 Pizza Place All Rights reserved.</p>
+
+  </footer>
+
+
+  <script src="/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
